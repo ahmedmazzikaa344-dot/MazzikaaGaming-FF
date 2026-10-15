@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090d18">
+<title>MAZZIKAA GAMING FF | شحن فري فاير</title>
+<style>
+:root{--bg:#080c16;--panel:#111827;--panel2:#161f31;--gold:#f6c453;--red:#f04444;--text:#f5f7fb;--muted:#a9b4c7;--line:#29344a;--green:#28c784}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% -10%,#25304b 0,transparent 35%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#080c16eF;border-bottom:1px solid #29344a;backdrop-filter:blur(12px)}.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.5px}.logo{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#f6c453,#e94b3c);display:grid;place-items:center;color:#080c16;font-weight:1000;font-size:18px;box-shadow:0 0 25px #f6c45325}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:2px}.navlinks{display:flex;gap:18px;color:var(--muted);font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:12px;padding:12px 16px;font-weight:800;cursor:pointer;transition:.2s}.primary{background:linear-gradient(135deg,var(--gold),#ff9d42);color:#17120a}.secondary{background:#1c2940;color:var(--text);border:1px solid var(--line)}.btn:hover{transform:translateY(-2px);filter:brightness(1.07)}
+.hero{padding:52px 0 32px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:28px}.eyebrow{color:var(--gold);font-weight:800;font-size:13px;letter-spacing:1px}.hero h1{font-size:clamp(34px,6vw,62px);line-height:1.08;margin:12px 0}.hero h1 span{color:var(--gold)}.hero p{color:var(--muted);line-height:1.9;max-width:600px}.hero-card{border:1px solid #3b3a36;background:linear-gradient(150deg,#202a3b,#101521 70%);border-radius:24px;padding:24px;min-height:245px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 24px 80px #0005}.wolf{font-size:58px;text-align:center;filter:drop-shadow(0 0 18px #f6c45360)}.hero-card strong{font-size:23px;color:var(--gold)}.hero-card p{margin:8px 0 0}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0 34px}.stat{background:#111827;border:1px solid var(--line);padding:14px;border-radius:14px;text-align:center}.stat b{display:block;color:var(--gold);font-size:18px}.stat span{color:var(--muted);font-size:12px}
+section{padding:24px 0 42px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:18px}.section-head h2{font-size:26px;margin:0}.section-head p{margin:6px 0 0;color:var(--muted);font-size:14px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}.tab{background:#121b2b;border:1px solid var(--line);color:var(--muted);padding:10px 14px;border-radius:999px;cursor:pointer}.tab.active{background:#3a2e14;color:var(--gold);border-color:#80652a}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.product{background:linear-gradient(155deg,#151e2e,#0f1521);border:1px solid var(--line);border-radius:18px;padding:17px;position:relative;overflow:hidden}.product:before{content:"";position:absolute;width:100px;height:100px;border-radius:50%;background:#f6c4530b;top:-42px;left:-30px}.product .icon{height:88px;border-radius:13px;background:linear-gradient(135deg,#263550,#121a2a);display:grid;place-items:center;font-size:39px;margin-bottom:14px}.product h3{font-size:16px;margin:0 0 6px}.product .desc{font-size:12px;color:var(--muted);min-height:18px}.price{color:var(--gold);font-size:23px;font-weight:900;margin:12px 0}.currency{font-size:12px;color:var(--muted);font-weight:600}.product .btn{width:100%}.badge{position:absolute;top:12px;right:12px;background:#4a2027;color:#ffaaaa;padding:5px 8px;border-radius:7px;font-size:10px;font-weight:800}
+.info-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.info{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:19px}.info .ico{font-size:25px}.info h3{margin:9px 0 5px}.info p{color:var(--muted);line-height:1.8;font-size:13px;margin:0}
+.competition{background:linear-gradient(120deg,#251d14,#111827 70%);border:1px solid #66502a;border-radius:22px;padding:24px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center}.competition h2{margin:8px 0;color:var(--gold)}.competition p{color:var(--muted);line-height:1.8}.prizes{display:flex;gap:8px;flex-wrap:wrap}.prizes span{background:#0b111e;border:1px solid var(--line);padding:8px 10px;border-radius:9px;font-size:12px}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.modal-back{position:fixed;inset:0;background:#000b;z-index:20;display:none;align-items:center;justify-content:center;padding:15px}.modal-back.open{display:flex}.modal{width:min(560px,100%);max-height:92vh;overflow:auto;background:#111827;border:1px solid var(--line);border-radius:20px;padding:22px}.modal h2{margin-top:0}.close{float:left;background:#263247;color:white;border:0;border-radius:8px;padding:7px 11px;cursor:pointer}.field{display:grid;gap:6px;margin:12px 0}.field label{font-size:13px;color:var(--muted)}input,select,textarea{width:100%;background:#090f1c;border:1px solid #35425a;color:white;padding:12px;border-radius:10px;font:inherit}input[type=file]{font-size:12px}.notice{background:#2a2316;border:1px solid #65502a;border-radius:12px;padding:12px;color:#ffe0a0;font-size:13px;line-height:1.7}.payment{background:#0b1220;padding:12px;border-radius:12px;border:1px solid var(--line);line-height:1.9}.order-result{display:none;background:#10281f;border:1px solid #236548;border-radius:12px;padding:12px;margin-top:12px;line-height:1.7}
+@media(max-width:850px){.products{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr;padding-top:34px}.hero-card{min-height:180px}.navlinks{display:none}.competition{grid-template-columns:1fr}.info-grid{grid-template-columns:1fr}.stats{margin-bottom:20px}}
+@media(max-width:420px){.products{gap:9px}.product{padding:11px}.product .icon{height:70px}.product h3{font-size:14px}.price{font-size:20px}.brand{font-size:13px}.nav .btn{padding:10px 11px;font-size:12px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#"><div class="logo">M</div><div>MAZZIKAA<small>GAMING FF</small></div></a>
+<nav class="navlinks"><a href="#diamonds">الجواهر</a><a href="#memberships">العضويات</a><a href="#battle">بطولة الجمعة</a><a href="#support">الدعم</a></nav>
+<a class="btn primary" href="#diamonds">ابدأ الشحن ↗</a>
+</div></header>
+<main class="wrap">
+<div class="hero">
+<div><div class="eyebrow">⚡ مركز شحن فري فاير</div><h1>اشحن جواهر<br><span>Free Fire</span> بسهولة</h1><p>اختار الباقة المناسبة، اكتب بيانات حسابك، وحوّل المبلغ عبر اتصالات كاش. الطلبات بتحتاج مراجعة يدوية قبل تنفيذ الشحن.</p><a class="btn primary" href="#diamonds">اختار باقتك الآن</a> <a class="btn secondary" href="https://wa.me/201148196934" target="_blank" rel="noopener">تواصل واتساب</a></div>
+<div class="hero-card"><div class="wolf">🐺</div><div><strong>MAZZIKAA GAMING FF</strong><p>قوة الذئب… شحن أسرع وتجربة أوضح.</p></div></div>
+</div>
+<div class="stats"><div class="stat"><b>7 باقات</b><span>جواهر فري فاير</span></div><div class="stat"><b>4 منتجات</b><span>عضويات وباس</span></div><div class="stat"><b>حتى 5 دقائق</b><span>الوقت المستهدف بعد التأكيد</span></div></div>
+<section id="diamonds"><div class="section-head"><div><h2>💎 باقات الجواهر</h2><p>اختار عدد الجواهر واضغط اطلب الآن.</p></div></div><div id="diamondProducts" class="products"></div></section>
+<section id="memberships"><div class="section-head"><div><h2>👑 العضويات والبطاقات</h2><p>اختار المنتج المناسب ليك.</p></div></div><div id="memberProducts" class="products"></div></section>
+<section><div class="section-head"><div><h2>ليه MAZZIKAA؟</h2><p>كل تفاصيل الطلب واضحة قبل التحويل.</p></div></div><div class="info-grid">
+<div class="info"><div class="ico">🧾</div><h3>رقم طلب خاص</h3><p>كل محاولة طلب يظهر لها رقم مرجعي تحتفظ بيه وتبعته للدعم عند الحاجة.</p></div>
+<div class="info"><div class="ico">📱</div><h3>تحويل اتصالات كاش</h3><p>الدفع يدوي بعد التحويل وإرسال صورة الإيصال، ولا يتم تأكيد الطلب تلقائيًا.</p></div>
+<div class="info"><div class="ico">💬</div><h3>دعم واتساب</h3><p>لو طلبك اتأخر عن الوقت المستهدف، تواصل معنا وأرسل رقم الطلب.</p></div>
+</div></section>
+<section id="battle"><div class="competition"><div><div class="eyebrow">🔥 كل يوم جمعة — 8 مساءً</div><h2>MAZZIKAA FRIDAY BATTLE</h2><p>بطولة فري فاير باتل رويال — فردي. رسوم الدخول 5 جنيه. الجوائز: المركز الأول BOOYAH PASS، المركز الثاني خصم على العضوية الأسبوعية، والمركز الثالث 75 نقطة متجر. تفاصيل الغرفة والنتائج تُعلن عبر واتساب بعد مراجعة الاشتراكات.</p><div class="prizes"><span>🥇 BOOYAH PASS</span><span>🥈 خصم عضوية أسبوعية</span><span>🥉 75 نقطة</span></div></div><a class="btn primary" href="https://wa.me/201148196934?text=%D8%B9%D8%A7%D9%8A%D8%B2%20%D8%A3%D8%B4%D8%AA%D8%B1%D9%83%20%D9%81%D9%8A%20MAZZIKAA%20FRIDAY%20BATTLE" target="_blank" rel="noopener">اشترك عبر واتساب</a></div><p style="color:var(--muted);font-size:12px;line-height:1.8">تنبيه: تأكد من توافق البطولة ورسوم الدخول والجوائز مع القوانين المحلية وشروط اللعبة قبل فتح الاشتراك.</p></section>
+<section id="support"><div class="section-head"><div><h2>📞 الدفع والدعم</h2><p>راجع رقم التحويل بعناية قبل إرسال الأموال.</p></div></div><div class="info-grid">
+<div class="info"><div class="ico">💸</div><h3>اتصالات كاش</h3><p>01148196934<br>01126597628</p></div>
+<div class="info"><div class="ico">🟢</div><h3>خدمة العملاء</h3><p>واتساب: 01148196934</p><a class="btn secondary" href="https://wa.me/201148196934" target="_blank" rel="noopener">افتح واتساب</a></div>
+<div class="info"><div class="ico">📣</div><h3>قناة المتجر</h3><p>تابع أخبار العروض والبطولات.</p><a class="btn secondary" href="https://whatsapp.com/channel/0029VbEiLsnLNSaBoWRKnw2o" target="_blank" rel="noopener">قناة واتساب</a></div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span>© MAZZIKAA GAMING FF</span><span>متجر مستقل؛ لا تدّعي الصفحة أنها الموقع الرسمي لشركة Garena.</span></div></footer>
+<div class="modal-back" id="modalBack" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><button class="close" id="closeModal">إغلاق ✕</button><h2 id="modalTitle">إكمال الطلب</h2><p id="selectedItem" style="color:var(--gold);font-weight:800"></p>
+<div class="notice">1) حوّل المبلغ للرقم الموضح. 2) احتفظ بالإيصال. 3) املأ البيانات واضغط إرسال عبر واتساب. الطلب غير مؤكد إلا بعد مراجعة التحويل يدويًا.</div>
+<div class="payment">اتصالات كاش:<br><b>01148196934</b><br><b>01126597628</b></div>
+<form id="orderForm">
+<div class="field"><label for="playerId">Player ID في فري فاير</label><input id="playerId" required inputmode="numeric" placeholder="اكتب Player ID"></div>
+<div class="field"><label for="playerName">اسم اللاعب (اختياري)</label><input id="playerName" placeholder="اسمك داخل اللعبة"></div>
+<div class="field"><label for="phone">رقم واتساب للتواصل</label><input id="phone" required inputmode="tel" placeholder="01xxxxxxxxx"></div>
+<div class="field"><label for="receipt">صورة إيصال التحويل (اختياري هنا)</label><input id="receipt" type="file" accept="image/*"><small style="color:var(--muted)">النسخة الحالية لا ترفع الصور إلى خادم؛ أرفق الإيصال بنفسك في محادثة واتساب بعد فتحها.</small></div>
+<button class="btn primary" type="submit" style="width:100%">إنشاء رقم الطلب والإرسال لواتساب</button>
+</form><div class="order-result" id="orderResult"></div></div></div>
+<script>
+const diamonds=[
+ {name:"50 جوهرة",price:30,icon:"💎",desc:"باقة بداية"},
+ {name:"100 جوهرة",price:55,icon:"💎",desc:"باقة صغيرة"},
+ {name:"210 جوهرة",price:105,icon:"💎",desc:"باقة مميزة"},
+ {name:"310 جوهرة",price:160,icon:"💎",desc:"باقة متوسطة"},
+ {name:"520 جوهرة",price:260,icon:"💎",desc:"باقة كبيرة"},
+ {name:"1060 جوهرة",price:510,icon:"💎",desc:"باقة احترافية"},
+ {name:"2200 جوهرة",price:1015,icon:"💎",desc:"باقة ضخمة"}
+];
+const members=[
+ {name:"عضوية أسبوعية",price:120,icon:"👑",desc:"Weekly Membership"},
+ {name:"عضوية شهرية",price:400,icon:"👑",desc:"Monthly Membership"},
+ {name:"BOOYAH PASS",price:65,icon:"🎟️",desc:"بوياه باس"},
+ {name:"أسبوعية جوكر صغنن",price:30,icon:"🟣",desc:"عرض خاص"}
+];
+let chosen=null;
+function render(list,id){document.getElementById(id).innerHTML=list.map((p,i)=>`<article class="product"><div class="icon">${p.icon}</div><h3>${p.name}</h3><div class="desc">${p.desc}</div><div class="price">${p.price} <span class="currency">جنيه مصري</span></div><button class="btn primary buy" data-type="${id}" data-index="${i}">اطلب الآن</button></article>`).join("");}
+render(diamonds,"diamondProducts");render(members,"memberProducts");
+document.addEventListener("click",e=>{const b=e.target.closest(".buy");if(!b)return;const list=b.dataset.type==="diamondProducts"?diamonds:members;chosen=list[Number(b.dataset.index)];document.getElementById("selectedItem").textContent=`${chosen.name} — ${chosen.price} جنيه`;document.getElementById("modalBack").classList.add("open");});
+document.getElementById("closeModal").onclick=()=>document.getElementById("modalBack").classList.remove("open");
+document.getElementById("modalBack").addEventListener("click",e=>{if(e.target.id==="modalBack")e.currentTarget.classList.remove("open")});
+document.getElementById("orderForm").addEventListener("submit",e=>{e.preventDefault();if(!chosen)return;const id="MZK-"+Date.now().toString().slice(-8);const player=document.getElementById("playerId").value.trim();const name=document.getElementById("playerName").value.trim()||"غير محدد";const phone=document.getElementById("phone").value.trim();const msg=`طلب جديد من MAZZIKAA GAMING FF%0Aرقم الطلب: ${id}%0Aالمنتج: ${chosen.name}%0Aالسعر: ${chosen.price} جنيه%0APlayer ID: ${player}%0Aاسم اللاعب: ${name}%0Aرقم التواصل: ${phone}%0Aالحالة: في انتظار مراجعة التحويل%0Aمن فضلك راجع التحويل يدويًا قبل التأكيد.`;const result=document.getElementById("orderResult");result.style.display="block";result.innerHTML=`رقم طلبك المرجعي: <b>${id}</b><br>الحالة: في انتظار مراجعة التحويل يدويًا.<br>احفظ الرقم، ثم أرفق صورة الإيصال في واتساب.`;window.open("https://wa.me/201148196934?text="+msg,"_blank","noopener");});
+</script>
+</body></html>
